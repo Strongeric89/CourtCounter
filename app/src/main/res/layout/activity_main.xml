@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+
+            android:id="@+id/scoreLabel"
+            android:textSize="34sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Team A" />
+
+        <TextView
+            android:textSize="34sp"
+
+            android:id="@+id/scoreCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:text="0"
+            android:textColor="@color/red" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/increment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="increment3"
+            android:paddingBottom="10dp"
+            android:text="+3 Points" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/increment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="increment2"
+            android:paddingBottom="10dp"
+            android:text="+2 Points" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/freeThrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="freeThrow"
+            android:paddingBottom="10dp"
+            android:text="Free Throw" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:textSize="34sp"
+            android:textColor="@color/white"
+            android:id="@+id/scoreLabelB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Team B" />
+
+        <TextView
+            android:textSize="34sp"
+
+            android:id="@+id/scoreCounterB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:text="0"
+            android:textColor="@color/red" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/increment3B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="increment3B"
+            android:paddingBottom="10dp"
+            android:text="+3 Points" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/increment2B"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="increment2B"
+            android:paddingBottom="10dp"
+            android:text="+2 Points" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/freeThrowB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="freeThrowB"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Free Throw" />
+
+
+    </LinearLayout>
+    </LinearLayout>
