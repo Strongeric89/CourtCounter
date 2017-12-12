@@ -84,6 +84,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void reset(View view){
+        totalA = 0;
+        totalB = 0;
+        pointsA.setText("" + totalA);
+        pointsB.setText("" + totalB);
+    }
+
 
 
 }
